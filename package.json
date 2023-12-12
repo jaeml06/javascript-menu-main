@@ -1,0 +1,35 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "우아한테크코스 프리코스 점심 메뉴 추천 미션",
+  "dependencies": {
+    "@woowacourse/mission-utils": "^2.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woowacourse-precourse/javascript-menu.git"
+  },
+  "keywords": [],
+  "author": "woowacourse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woowacourse-precourse/javascript-menu/issues"
+  },
+  "homepage": "https://github.com/woowacourse-precourse/javascript-menu#readme",
+  "engineStrict": true,
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=14.0.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  }
+}
